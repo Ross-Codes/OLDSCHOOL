@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+ 
+<!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www/w3/org/TR/xhtml/11/DTD/xhtml1-
+transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	       
+<head>
+<title>Settings Capture - Web III Assessment #2</title>
+		       
+<style>           
+
+   body  {color:black; font-family:Trebuchet MS, Verdana; font-size:1.0em}
+   h1    {text-align:center}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Welcome to our Site</h1>
+<h2>Please Indicate Your Preferences Below</h2>
+
+<form action="process_jonescr.php" method="POST">
+
+   First Name:
+   <input type="text" name="firstname" />
+   <br /><br />
+
+   Last Name:
+   <input type="text" name="lastname" />
+   <br /><br />
+
+   Please choose your foreground color:
+   <select name="fgcol">
+     <option value="black">black</option>
+     <option value="white">white</option>
+     <option value="beige">beige</option>
+     <option value="#99CC99">avacodo</option>
+     <option value="#9999CC">slate blue</option>
+     <option value="#666699">dark bluegrey</option>
+     <option value="#660066">dark purple</option>
+   </select>
+   <br /><br />
+
+   Please choose your background color:
+   <select name="bgcol">
+     <option value="white">white</option>
+     <option value="black">black</option>
+     <option value="darkgreen">darkgreen</option>
+     <option value="#99CC99">avacodo</option>
+     <option value="#9999CC">slate blue</option>
+     <option value="#666699">dark bluegrey</option>
+     <option value="#660066">dark purple</option>
+   </select>
+   <br /><br />
+
+   Please select an area of history you would like to know more about:
+   <select name="topic">
+     <option value="Ancient World">The Ancient World</option>
+     <option value="Dark Ages">The Dark Ages</option>
+     <option value="Crusades">The Crusades</option>
+     <option value="Rennaisance">The Rennaisance</option>
+     <option value="Napoleonic">Napoleonic Europe</option>
+     <option value="Colonial">The Colonial Age</option>
+     <option value="20th Century">The 20th Century</option>
+   </select>
+   <br /><br />
+
+   Oh yeah, and what kind of cookies do you like again :-):
+   <select name="sweets">
+     <option value="Chocolate Chip">Chocolate Chip</option>
+     <option value="Snicker Doodle">Snicker Doodle</option>
+     <option value="Ginger Snap">Ginger Snap</option>
+     <option value="Sugar">Sugar</option>
+     <option value="Peanut Butter">Peanut Butter</option>
+   </select>
+   <br /><br />
+
+   <input type="submit" name="submit" value="Go" />
+
+</form>
+
+</body>
+</html>
